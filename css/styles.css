@@ -46,6 +46,36 @@ h1 {
 	line-height: 1.5;
 }
 
+/*Apropos*/
+
+#apropos {
+	background-color: #010436;
+}
+
+#apropos h3 {
+	color: white;
+	font-family: "Montserrat";
+}
+
+#apropos h1 {
+	color: #2abfb1;
+}
+
+#apropos p {
+	color: white;
+	font-size: 18px;
+}
+
+.about-details {
+	box-shadow: 0 20px 40px #2abfb1;
+	background-color: #2abfb1;
+}
+
+.about-profile img {
+	height: 500px;
+	margin-left: 50px;
+}
+
 /*<!-- Features -->*/
 
 #training {
@@ -77,6 +107,10 @@ h1 {
       color: white;
   }
 
+.training-box h4 {
+	color: #2abfb1;
+}
+
 /*#features img {
 	width: 350px;
 	max-width: 100%;
@@ -86,12 +120,12 @@ h1 {
 }*/
 
 .fa-solid {
-	color: #8f8f8f;
+	color: #35fdea;
 	margin: 20% 40%;
 }
 
 .fa-solid:hover {
-	color: #35fdea;
+	color: #8f8f8f;
 }
 
 /*testymonial section*/
@@ -137,6 +171,10 @@ background-color: #010436;
 	color: white;
 }
 
+#pricing h2 {
+	color: #2abfb1;
+}
+
 /*contact*/
 
 #cta {
@@ -169,4 +207,87 @@ background-color: #010436;
 .fa-brands {
 	padding: 15px;
 	color: white;
+	cursor: pointer;
+}
+
+/*getintouch*/
+
+.logoside {
+	background-color: #010436;
+	padding: 20%;
+}
+
+.logoside img {
+	margin-top: 5%;
+	width: 200px;
+	height: 100px;
+}
+
+.formside {
+	background-color: #2abfb1;
+	padding: 20%;
+}
+
+/*form*/
+
+form img{
+	width: 100px;
+	margin-top: -100px;
+}
+form h2 {
+	color:white ;
+}
+.icontacte {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 40px;
+	width: 40px;
+	background-color: black;
+	color: white;
+}
+.contacte {
+	width: 450px;
+	margin: -10% auto;
+	padding: 50px 0;
+	text-align: center;
+	box-shadow: 0 20px 40px #010436;
+	background-color: #010436;
+}
+.input-box {
+	margin: 30px auto;
+	width: 80%;
+	position: relative;
+}
+.input-box input {
+	width: 100%;
+	height: 40px;
+	border: none;
+	padding-left: 40px;
+	background-color: #efefef;
+}
+.fa {
+	padding: 10px;
+	color: #fff; 
+}
+.envoyer {
+	display: block;
+	color: #fff;
+	width: 130px;
+	height: 40px;
+	margin-left: 10%;
+	border: 0;
+	font-size: 16px;
+	outline: none;
+	background-color: black;
+	cursor: pointer;
+}
+
+.message-box {
+	width: 100%;
+	height: 100px;
+	border: none;
+	padding-left: 40px;
+	background-color: #efefef;
+}
 }

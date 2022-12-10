@@ -41,10 +41,10 @@
 				            <a class="nav-link" href="#home">Home</a>
 				        </li>
 				        <li class="nav-item">
-				            <a class="nav-link" href="#training">Training</a>
+				            <a class="nav-link" href="#apropos">About</a>
 				        </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#training">Training</a>
                 </li>
 				        <li class="nav-item">
 				            <a class="nav-link" href="#footer">contact</a>
@@ -59,9 +59,9 @@
 		    <div class="row">
 
 		    	<div class="title col-lg-6">
-		    		<h1>I'm Josias Faustin BOUKA N'ZOUSSI, a CISCO Certified Network Associate.</h1>
+		    		<h1>Welcome on Jzone your path to the IT network universe.</h1>
 				    <a href="doc/cv.pdf"><button type="button" class="btn btn-dark btn-lg">My resume</button></a>
-				    <button type="button" class="btn btn-outline-light btn-lg">Get in touch</button>
+				    <a href="getintouch.html"><button type="button" class="btn btn-outline-light btn-lg">Get in touch</button></a>
 		    	</div>
 
 			    <div class="col-lg-6">
@@ -72,6 +72,25 @@
 
   	</section>
 
+  <!-- Apropos -->
+
+  <section id="apropos" class="container-fluid">
+    <div class="container">
+      <h1>About me</h1>
+      <div class="row">
+        <div class="about-profile col-lg-6">
+          <h3>I'm Josias Faustin BOUKA N'ZOUSSI, an Independant IT security consultant.</h3>
+          <img src="images/photo.png">
+        </div>
+        <div class="about-details col-lg-6">
+          <h3>My expertise</h3>
+          <p>I'm no longer going to talk a lot in this section. Just check in my resume and my achievements by clicking on the button bellow. In that resume are displayed my knowledges as a Linux system admin and computing network profesionnal  </p>
+          <a href="doc/cv.pdf"><button type="button" class="btn btn-dark btn-lg">My resume</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <!-- Features -->
 
@@ -80,27 +99,40 @@
 			<div class="row">
 				<div class="training-box col-sm-4">
           <div class="thumbnail">
-            <a href="#"><i class="fa-solid fa-ethernet fa-4x"></i></a>
-            <h4>Cisco packet tracer's labs</h4>
-            <p>So easy to use, even your dog could do it. We have all the dogs, the greatest dogs.</p>
+            <a href="ptlabs.html"><i class="fa-solid fa-ethernet fa-4x"></i></a>
+            <h4>Routing & Switching labs</h4>
+            <a href="labs/"><p>Troubleshoot Static and Default Routes</p><a>
+            <a href="labs/"><p>Implement VLANs and Trunking</p><a>
+            <a href="labs/"><p>Configure Layer 3 Switching and Inter-VLAN Routing</p><a>
+            <a href="labs/"><p>Configure a Wireless Network</p><a>
+            <a href="labs/"><p>Configure a WPA2 Enterprise WLAN on the WLC</p><a>
           </div>
 				</div>
 
-	            <div class="training-box  col-sm-4">
-                <div class="thumbnail">
-                  <a href="#"><i class="fa-solid fa-computer fa-4x"></i></a>
-                  <h4>CCNA 200-301 exam topics </h4>
-                  <p>We have all the dogs, the greatest dogs. So easy to use, even your dog could do it.</p>
-                </div>
-	            </div>
+        <div class="training-box col-sm-4">
+          <div class="thumbnail">
+            <a href="#"><i class="fa-solid fa-computer fa-4x"></i></a>
+            <h4>Introduction to the network </h4>
+            <a href="labs/"><p>Network Representation.</p><a>
+            <a href="labs/"><p>Configure Secure Passwords and SSH</p><a>
+            <a href="labs/"><p>Investigate the TCP-IP and OSI Models in Action</p><a>
+            <a href="labs/"><p>Subnet an IPv4 Network</p><a>
+            <a href="labs/"><p>TCP and UDP Communications</p><a>
+            <a href="labs/"><p>Basic Device Configuration</p><a>
+          </div>
+        </div>
 
-	            <div class="training-box  col-sm-4">
-                <div class="thumbnail">
-                  <a href="#"><i class="fa-solid fa-globe fa-4x"></i></a>
-                  <h4>Training tools</h4>
-                  <p>Find the love of your dog's life or your money back. So easy to use, even your dog could do it.</p>
-                </div>
-	            </div>
+        <div class="training-box col-sm-4">
+          <div class="thumbnail">
+            <a href="#"><i class="fa-solid fa-globe fa-4x"></i></a>
+            <h4>Evolutivity network services advance</h4>
+            <a href="labs/"><p>Point-to-Point Single-Area OSPFv2 Configuration</p><a>
+            <a href="labs/"><p>Propagate a Default Route in OSPFv2</p><a>
+            <a href="labs/"><p>Configure NAT for IPv4</p><a>
+            <a href="labs/"><p>Configure Extended IPv4 ACLs - Scenario 1</p><a>
+            <a href="labs/"><p>Use a TFTP Server to Upgrade a Cisco IOS Image</p><a>
+          </div>
+        </div>
 			    
 			</div>
 		</div>
@@ -110,7 +142,7 @@
 
   <!-- Testimonials -->
 
-  <section id="about" class="container-fluid">
+  <!-- <section id="about" class="container-fluid">
     <div class="container">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 
@@ -139,20 +171,7 @@
       </div>
     </div>
 
-
-   <!--  <div class="container">
-      <div class="row">
-        <h3>I'm no longer going to talk a lot in this section. Just check in my resume and my achievements display by logos bellow.</h3>
-        <em>Josias Faustin, network admin</em>
-        <img src="images/lady-img.jpg" alt="joey-profile">
-
-        <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-        <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-        <em>Beverly, Illinois</em>
-      </div>
-    </div> -->
-
-  </section>
+  </section> -->
 
 
   <!-- Press -->
@@ -180,40 +199,40 @@
   <section id="pricing" class="container-fluid">
     <div class="container text-center">
 
-      <h2>A Plan for Every Dog's Needs</h2>
-      <p>Simple and affordable price plans for your and your dog.</p>
+      <h2>Pass your CCNA 200-301</h2>
+      <p>Here is the first gate to the IT Network universe</p>
 
       <div class="row">
         <div class="col-lg-4">
           <div class="thumbnail">
-            <h3>Chihuahua</h3>
-            <h2>Free</h2>
+            <h3>Network fundamentals</h3>
+            <!-- <h2>Free</h2> -->
             <p>5 Matches Per Day</p>
             <p>10 Messages Per Day</p>
             <p>Unlimited App Usage</p>
-            <button type="button" class="btn btn-outline-light btn-lg">Sign Up</button>
+            <button type="button" class="btn btn-outline-light btn-lg">PT labs</button>
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="thumbnail">
-            <h3>Labrador</h3>
-            <h2>$49 / mo</h2>
+            <h3>Routing & Switching</h3>
+            <!-- <h2>$49 / mo</h2> -->
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
-            <button type="button" class="btn btn-outline-light btn-lg">Sign Up</button>
+            <button type="button" class="btn btn-outline-light btn-lg">PT labs</button>
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="thumbnail">
-            <h3>Mastiff</h3>
-            <h2>$99 / mo</h2>
+            <h3>Security</h3>
+            <!-- <h2>$99 / mo</h2> -->
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
-            <button type="button" class="btn btn-outline-light btn-lg">Sign Up</button>
+            <button type="button" class="btn btn-outline-light btn-lg">PT labs</button>
           </div>
         </div>
       </div>
@@ -227,8 +246,8 @@
   <section id="cta" class="container-fluid text-center">
     <div class="container">
       <h3>For more information check the button bellow.</h3>
-      <button type="button" class="btn btn-dark btn-lg">My resume</button>
-      <button type="button" class="btn btn-outline-light btn-lg">Get in touch</button>
+      <a href="doc/cv.pdf"><button type="button" class="btn btn-dark btn-lg">My resume</button></a>
+      <a href="getintouch.html"><button type="button" class="btn btn-outline-light btn-lg">Get in touch</button></a>
     </div>
   </section>
 

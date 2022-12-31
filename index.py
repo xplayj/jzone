@@ -17,7 +17,7 @@ app.config['MAIL_PASSWORD'] = 'CCNA@2022'
 
 mail = Mail(app)
 
-@app.route('/home')
+@app.route('/')
 def home():
 	# update the footer  copyright current year
 	current_year = datetime.datetime.now().year
